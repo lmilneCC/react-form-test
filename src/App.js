@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import ReactHookForm from "./ReactHookForm.js"
+import Formik from "./Formik.js"
+// import ReactFinalForm from "./ReactFinalForm"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <h2>React Hook Form:</h2>
+        <ReactHookForm />
+        ---
+      </div>
+      <div>
+        <h2>Formik Form:</h2>
+        <Formik />
+        ---
+      </div>
+    </>
   );
 }
 

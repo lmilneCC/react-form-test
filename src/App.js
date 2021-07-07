@@ -17,7 +17,7 @@ function App() {
         ---
       </div>
       <div>
-        <h2>React Final Form</h2>
+        <h2>React Final Form:</h2>
         <ReactFinalForm />
       </div>
     </>

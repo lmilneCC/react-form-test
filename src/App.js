@@ -1,7 +1,7 @@
 import './App.css';
 import ReactHookForm from "./ReactHookForm.js"
 import Formik from "./Formik.js"
-// import ReactFinalForm from "./ReactFinalForm"
+import ReactFinalForm from "./ReactFinalForm"
 
 function App() {
   return (
@@ -15,6 +15,10 @@ function App() {
         <h2>Formik Form:</h2>
         <Formik />
         ---
+      </div>
+      <div>
+        <h2>React Final Form</h2>
+        <ReactFinalForm />
       </div>
     </>
   );
